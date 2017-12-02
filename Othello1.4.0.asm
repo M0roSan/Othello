@@ -131,21 +131,21 @@ loadBoard:	#implemented by Ryan Desmond
 	#The empty board is now drawn, but needs to be initialized with starting pieces in middle
 	DrawStartPieces:			#offset at index 135 and 120 are white indexes 136 and 119 are black
 		la  $a2, ($s1)			#load $a2, the paintbrush, as the color red(white)
-		li  $t1, 136			#set $t1 to the index of 45
+		li  $t1, 119			#set $t1 to the index of 44
 		sll $t1, $t1, 2			#multiply that index by 4
 		add $a1, $t1, $gp		#set the coordinate $a1 to the $gp plus the memory offset
 		jal drawPixel
-		li  $t1, 119			#set $t1 to the index of 54
+		li  $t1, 136			#set $t1 to the index of 55
 		sll $t1, $t1, 2			#multiply that index by 4
 		add $a1, $t1, $gp		#set the coordinate $a1 to the $gp plus the memory offset
 		jal drawPixel
 	
 		la  $a2, ($s0)			#load $a2, the paintbrush, as the color blue(black)
-		li  $t1, 135			#set $t1 to the index of 44
+		li  $t1, 120			#set $t1 to the index of 45
 		sll $t1, $t1, 2			#multiply that index by 4
 		add $a1, $t1, $gp		#set the coordinate $a1 to the $gp plus the memory offset
 		jal drawPixel
-		li  $t1, 120			#set $t1 to the index of 55
+		li  $t1, 135			#set $t1 to the index of 54
 		sll $t1, $t1, 2			#multiply that index by 4
 		add $a1, $t1, $gp		#set the coordinate $a1 to the $gp plus the memory offset
 		jal drawPixel
