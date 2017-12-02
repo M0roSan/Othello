@@ -5,7 +5,7 @@ This is a game program, Othello, written in MIPS.
 Getting Started
 -----------------
 **Prerequisites** 
-- Mars 4.5 software (Mips Assembler and Runtime Simulator)
+- Mars 4.5 software (Mips Assembler and Runtime Simulator): http://www.cs.missouristate.edu/~vollmar/MARS/download.htm
 - Java runtime environment 7 or later
 --------------------
 **Running the tests** 
