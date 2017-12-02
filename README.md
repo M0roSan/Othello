@@ -9,7 +9,7 @@ Getting Started
 - Java runtime environment 7 or later
 --------------------
 **Running the tests**
-1.	Open Othello1.3.3.asm
+1.	Open Othello1.4.0.asm
 2.	Go tools and select BitMap Display
 3.	Set unit width in pixels 16, unit height in pixels 16, display width in pixels 256, display height in pixels 256, and base address for display 0x10008000($gp)
 4.	Hit a connect to MIPS button
