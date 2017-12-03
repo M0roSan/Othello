@@ -1,4 +1,3 @@
-#The University of Texas at Dallas, SE3340.501:Computer Architecture, Fall 2017.
 #Team Project: Implementing a playable Othello game, which is player vs. computer
 #Contributors: Ryan Desmond, Masahiro Yoshida, Abdu Ghulam
 .data
