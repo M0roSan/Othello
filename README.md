@@ -17,7 +17,8 @@ Getting Started
 6.	Go run and select assemble. And then press run the current program
 7.	Follow the procedure on the output console
 8.	Rules of Othello is referred here: http://www.hannu.se/games/othello/rules.htm 
-![screenshot 18](https://user-images.githubusercontent.com/33169818/33526961-2f4c99e8-d80e-11e7-9883-a630f3a9e8f9.png)
+![othellosimulator](https://user-images.githubusercontent.com/33169818/33527125-fce0b2ac-d810-11e7-9297-ace302f02b47.gif)
+
 
 ---------------
 **Authors** 
