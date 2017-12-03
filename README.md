@@ -9,7 +9,7 @@ Getting Started
 - Java runtime environment 7 or later
 --------------------
 **Running the tests** 
-1.  Download Othello1.4.0.asm in your computer
+1.  Download Othello.asm in your computer
 2.	Open Othello1.4.0.asm on MARS.jar
 3.	Go tools and select BitMap Display
 4.	Set unit width in pixels 16, unit height in pixels 16, display width in pixels 256, display height in pixels 256, and base address for display 0x10008000($gp)
@@ -22,6 +22,4 @@ Getting Started
 - Masahiro Yoshida
 - Ryan Desmond
 - Abdu Ghulam
----------------------
-**Note**  
-The University of Texas at Dallas, CS/SE3340.501: Computer Architecture, Fall 2017. 
+
